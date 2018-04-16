@@ -101,8 +101,48 @@
             <li><a href="?lang=zh-tw" data-lang-code="zh-tw" title="Traditional Chinese" class="js-language-link js-tooltip" rel="noopener">繁體中文</a></li>
         </ul>
         </div>
+        
+        <!--Twitter Sign in -->
+        
+         <div id="page-outer">
+          <div id="page-container" class="AppContent wrapper wrapper-login">
+              
+            <div class="page-canvas">
+
+  <div class="signin-wrapper" data-login-message="">
+    <h1>Log in to Twitter</h1>
+    <form action="https://twitter.com/sessions" class="t1-form clearfix signin js-signin" method="post">
+      <fieldset>
+
+  <legend class="visuallyhidden">Log in</legend>
+
+  <div class="clearfix field">
+    <input
+      class="js-username-field email-input js-initial-focus"
+      type="text"
+      name="session[username_or_email]"
+      autocomplete="on" value=""
+      placeholder="Phone, email or username"
+    />
+  </div>
+  <div class="clearfix field">
+    <input class="js-password-field" type="password" name="session[password]" placeholder="Password">
+  </div>
+
+  <input type="hidden" value="302906740d261f9eae47739c3c3f5f042749a81a" name="authenticity_token"/>
+
+      <input type="hidden" name="ui_metrics" autocomplete="off">
+      <script src="/i/js_inst?c_name=ui_metrics" async></script>
+
+</fieldset>
+        
+        
+        
+        
+        
+        
     
-    
+    <!-- My Original Sign In Doens't Show With Twitter NavBar
 <form class="form-horizontal">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
@@ -131,6 +171,6 @@
     </div>
   </div>
     </form> 
-    
+    -->
 </body>
 </html>
